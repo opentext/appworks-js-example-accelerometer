@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title>AWAccelerometer Demo</title>
+    <link rel="stylesheet" href="css/style.css"></link>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="appworks.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+
+  </head>
+  <body>
+
+    <div id="intro-wrapper">
+      <div id="intro">
+        <div style="font-weight:bold; text-align:center; margin-bottom:8px;">AppWorks AWAccelerometer Demo</div>
+        <p>This demo app demostrates the use of the Appworks.AWAccelerometer class</P>
+      </div>
+    </div>
+
+    <div id="content-wrapper">
+      <div><button type="button" id="go0-button" class="go-button vertical-space" onclick="getAccelerometer();">Get Current Accelerometer</button></div>
+      <div><button type="button" id="go0-button" class="go-button vertical-space" onclick="watchAccelerometer();">Watch Accelerometer</button></div>
+      <div><button type="button" id="go0-button" class="go-button vertical-space" onclick="clearAccelerometer();">Stop Accelerometer</button></div>
+    </div>
+
+    <div id="result-wrapper">
+      <div id="result">
+        Result will appear here.
+      </div>
+    </div>
+
+    <div id="version">Version 0.0.1</div>
+  </body>
+</html>
